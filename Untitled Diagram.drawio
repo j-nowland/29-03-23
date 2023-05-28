@@ -1,9 +1,173 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T03:41:04.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.0" etag="c9XYqlgosr2myiRAcNrP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-28T04:00:39.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ivmSiJ4NNR_-eTW_luTW" version="21.3.0" type="github">
   <diagram name="Page-1" id="SeIAk-G6w8I3j0dbDePv">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yh0INmWIltJAkanT2XqZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-1" target="yh0INmWIltJAkanT2XqZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-1" value="Analyse source and target&lt;br&gt;systems to define the scope of the data that needs to be transferred: how much data to pull over" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="85" y="20" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-2" target="yh0INmWIltJAkanT2XqZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-2" value="Assess source and target systems,&lt;br&gt;running extracts and queries, and analyse: what&lt;br&gt;kind of conversions are needed, is data redundancy going to be an issue." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-3" target="yh0INmWIltJAkanT2XqZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-3" value="Choose a data migration&lt;br/&gt;tool: either a cloud-based migration tool or on-premise migration tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-4" target="yh0INmWIltJAkanT2XqZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-4" value="Estimate budget and set&lt;br&gt;realistic timelines. Select an approach for data migration, big bang or trickle. Detail process and technical architecture needed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-5" value="Data auditing and profiling: Use automated tools to examine and cleanse all of the data to be migrated&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="75" y="540" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-6" target="yh0INmWIltJAkanT2XqZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-6" value="Data backup: Choose a tool which backs up all data with&amp;nbsp;tested resources before proceeding." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="65" y="730" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-7" value="Set data standards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="135" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-8" target="yh0INmWIltJAkanT2XqZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-8" value="Hire an ETL (extract,&lt;br&gt;transform, load) developer or specialist, to work with a system analyst and&lt;br&gt;business analyst, to map the data. Decide on how to break migration up into sections. Choosing and customising ETL tools to specify the migration and testing rules, to&lt;br&gt;clarify the acceptance criteria, and to organise roles and responsibilities in&lt;br&gt;the migration team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="414" y="20" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-9" target="yh0INmWIltJAkanT2XqZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="470" />
+              <mxPoint x="325" y="38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-9" target="yh0INmWIltJAkanT2XqZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-9" value="Is budget and timeline workable?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="440" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-10" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-11" target="yh0INmWIltJAkanT2XqZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-11" value="Test: has all data been successfully backed up?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-12" target="yh0INmWIltJAkanT2XqZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="660" />
+              <mxPoint x="335" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-12" target="yh0INmWIltJAkanT2XqZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-12" value="Test: is all data in best condition and free of data redundancies?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="85" y="620" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-13" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-14" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-15" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-16" target="yh0INmWIltJAkanT2XqZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-16" value="Define schema and begin first stage of converting source data to chosen target NoSQL schema. Sort data, categorise&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;according to migration requirements. Break data into subsets and&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;build out one category at a time.&amp;nbsp;Route data based upon NoSQL format" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE354;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-17" target="yh0INmWIltJAkanT2XqZ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-17" value="Do some sample tests, reviewing data, access rules and check if they are working as expected?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="399" y="330" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-28" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-34" target="yh0INmWIltJAkanT2XqZ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-34" value="&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;/p&gt;For first section of migration: make a copy and clean up source data, remove data which is not required. Compress remaining content and converted data into desired format&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="398" y="475" width="302" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-36" target="yh0INmWIltJAkanT2XqZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="610" />
+              <mxPoint x="730" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-36" target="yh0INmWIltJAkanT2XqZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-36" value="Do mock migrations and test if they are successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="410" y="570" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-38" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-39" target="yh0INmWIltJAkanT2XqZ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-39" value="Using the trickle approach, complete the actual migration in the planned phases, continuing to run the old system while the new one runs in parrellel. Track all transported data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="398" y="670" width="312" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-40" target="yh0INmWIltJAkanT2XqZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="830" />
+              <mxPoint x="750" y="133" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-40" target="yh0INmWIltJAkanT2XqZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-40" value="Ongoing testing if migration is successful" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A3FF2B;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh0INmWIltJAkanT2XqZ-41" target="yh0INmWIltJAkanT2XqZ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-41" value="Continue until complete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="450" y="900" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yh0INmWIltJAkanT2XqZ-44" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="500" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
